@@ -5,7 +5,8 @@
   "description": "Suivez votre temps passé sur les sites web",
   "permissions": ["storage", "tabs"],
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
   },
   "background": {
     "service_worker": "background.js"
