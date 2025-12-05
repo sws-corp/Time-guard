@@ -51,3 +51,7 @@ Paramètres (ajout de limite)
 <img width="1470" height="956" alt="Capture d’écran 2025-12-05 à 03 30 20" src="https://github.com/user-attachments/assets/1a5b8be7-dba3-41dd-91b9-7f77c44b95a1" />
 Popup d'avertissement de dépassement de la limite
 <img width="1470" height="956" alt="Capture d’écran 2025-12-05 à 03 14 37" src="https://github.com/user-attachments/assets/2e503f1a-9ad3-4719-a5dd-1c66033f7554" />
+
+## Licence
+
+Ce projet est distribué sous licence MIT.  
