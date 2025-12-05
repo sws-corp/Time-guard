@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="row gap-medium pt pr pl" id="topbar">
+        <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-corner-down-left-icon lucide-corner-down-left"><path d="M20 4v7a4 4 0 0 1-4 4H4"/><path d="m9 10-5 5 5 5"/></svg>
+        </a>
+      <h1>Paramètres</h1>
+    </div>
+    
+    <div class="pt pb pr pl">
+      <h2>Limites de temps</h2>
+      
+      <div class="add-limit-form">
+        <h3>Ajouter une limite</h3>
+        <input type="text" id="siteInput" placeholder="ex: instagram.com">
+        <input type="number" id="limitInput" placeholder="Minutes" min="1">
+        <button id="addBtn">Ajouter</button>
+      </div>
+    <div id="limitsList">
+        
+    </div>
+    </div>
+    
+    <script src="settings.js"></script>
+  </body>
+</html>

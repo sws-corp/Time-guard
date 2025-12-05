@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+}
+#topbar{
+    background-color: #71B778;
+    color: #fff;
+    padding: 10px;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.col{
+    display:flex;
+    flex-direction: column;
+}
+.icon{
+    width: 30px;
+    height: auto;
+}
+.gap-tiny{
+    gap: 5px
+}
+.gap-medium{
+    gap: 10px
+}
+.pt{
+    padding-top: 10px;
+}
+.pb{
+    padding-bottom: 10px;
+}
+.pr{
+    padding-right: 10px;
+}
+.pl{
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.add-limit-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.add-limit-form button{
+    background-color: #71B778;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    padding: 4px;
+}
+#limitsList{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.delete-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #b77171;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 3px;
+}
+.minsize{
+    width: 20px;
+}
+.limit-item{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+}
+#settingsLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+}

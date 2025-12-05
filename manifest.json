@@ -1,14 +1,25 @@
 {
-  "name": "Time-guard",
-  "description": "Base Level Extension",
-  "version": "0.1",
   "manifest_version": 3,
-  "permissions": [
-    "tabs",
-    "storage"
-  ],
+  "name": "TimeGuard",
+  "version": "1.0",
+  "description": "Suivez votre temps passé sur les sites web",
+  "permissions": ["storage", "tabs"],
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "icon.png"
-  }
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["style.css", "assets/swsane.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
